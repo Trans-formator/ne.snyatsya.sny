@@ -40,7 +40,7 @@
   <h1>😺 Фокус-кот</h1>
   <div class="mode" id="mode">Фокус · 25 мин</div>
 
-  <svg id="cat" viewBox="0 0 200 150">
+  <svg id="cat" viewBox="0 0 200 150" role="img" aria-label="Кот">
     <ellipse cx="100" cy="112" rx="70" ry="30" fill="#f2a65a"/>
     <path d="M165 118 q30 -5 20 -30" stroke="#f2a65a" stroke-width="12" fill="none" stroke-linecap="round"/>
     <circle cx="100" cy="82" r="38" fill="#f2a65a"/>
@@ -59,7 +59,7 @@
   </svg>
 
   <div class="time" id="time">25:00</div>
-  <div class="msg" id="msg">Нажми «Старт» — кот пойдёт спать.</div>
+  <div class="msg" id="msg" aria-live="polite">Нажми «Старт» — кот пойдёт спать.</div>
 
   <button class="main" id="start">Старт</button>
   <button id="reset">Сброс</button>
